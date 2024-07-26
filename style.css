@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+body {
+    background: f1fbff;
+}
+
+.logo {
+    color: green;
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .4rem 4rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+    background-color: black;
+}
+
+.navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(9, 201, 9) !important;
+}
+
+#navbarSupportedContent a {
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover {
+    border-bottom: 2px soild #e2d9de;
+}
+
+.background {
+    background-image: url('bag.jpg');
+    /* Path to your image file */
+    background-size: cover;
+    /* Cover the entire viewport */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    height: 100vh;
+    /* Full viewport height */
+    color: white;
+    /* Text color for better visibility */
+    text-align: center;
+    /* Center text horizontally */
+    display: flex;
+    /* Use flexbox to center content */
+    align-items: center;
+    /* Center content vertically */
+    justify-content: center;
+    /* Center content horizontally */
+    font-family: Arial, sans-serif;
+    /* Optional: set font */
+    margin-bottom: 10px;
+}
+
+.about-img {
+    margin: 5px 5px;
+}
+
+
+
+#products {
+    background: #e5e5e5;
+}
+
+
+
+#products {
+    background: #e5e5e5;
+}
+
+#products h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.container {
+    position: relative;
+    min-height: 100vh;
+    background: #ddd;
+}
+
+.container .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.container .image-container .image {
+    border: 10px solid #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.container .image-container .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2 linear;
+}
+
+.container .image-container .image:hover img {
+    transform: scale(1.1);
+}
+
+#Contact img{
+    height: 100%;
+}
+
+.icons{
+    padding-left: 80px;
+}
+.icons-container {
+    background: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.icons-container.icons {
+    background: #fff;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex: 1 1 25rem;
+    padding-bottom: 20px;
+}
+
+.icons-container.icons img {
+    height: 5rem;
+    margin-right: 2rem;
+}
+
+.icons-container.icons h3 {
+    color: #333;
+    padding-bottom: .5rem;
+    font-size: 1.5rem;
+}
+
+.icons-container.icons span {
+    color: #555;
+    font-size: 1.3rem;
+}
+
+.signin{
+    width: 90px;
+    background: rgb(9, 201, 9) !important;
+    color:white imo !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    width: 100%;
+    height: 30px;
+    background: rgba(0,0,0,.8);
+    margin-top: -30px;
+    text-align: center;
+    color: #fff;
+    padding: 3px;
+}
+
